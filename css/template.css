@@ -1,3 +1,142 @@
+@charset "UTF-8";
+* {
+  margin: 0px; }
 
+html {
+  font-size: 62.5%;
+  color: #333333; }
+
+body {
+  font-family: 'Hiragino Sans W3','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','メイリオ',Meiryo,'ＭＳ Ｐゴシック','MS PGothic',sans-serif;
+  width: 100%; }
+
+img {
+  outline: none;
+  border-style: none; }
+
+a {
+  color: blue;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s; }
+
+a:visited {
+  color: blue;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s; }
+
+a:hover {
+  color: #F5A862;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s; }
+
+h1 {
+  margin: 10px 10px 20px 10px;
+  padding: 0px 10px 10px 10px;
+  border-bottom: 12px dotted #0099ff;
+  font-size: 2.6rem;
+  letter-spacing: 1px; }
+
+h2 {
+  margin: 10px 10px 20px 10px;
+  padding: 0px 10px 10px 10px;
+  border-bottom: 6px double #333333;
+  font-size: 2.6rem;
+  letter-spacing: 1px; }
+
+h3 {
+  margin: 0px 2px 0px 2px;
+  padding: 4px 6px 6px 6px;
+  border-bottom: 2px solid #333333;
+  font-size: 2.2rem; }
+
+h4 {
+  margin: 0px 20px;
+  padding: 4px 6px 6px 6px;
+  border-left: 16px solid #666666;
+  border-bottom: 2px solid #666666;
+  font-size: 2rem; }
+
+p {
+  margin: 10px 16px 20px 26px;
+  font-size: 2rem; }
+
+li {
+  margin: 10px 16px 10px 26px;
+  font-size: 2rem; }
+
+span {
+  display: inline-block; }
+
+div {
+  width: 100%;
+  margin: 0px auto;
+  padding: 0px; }
+
+html, body {
+  height: 100%; }
+
+body {
+  display: flex;
+  flex-direction: column; }
+
+article {
+  width: 100%;
+  margin: 0%;
+  padding: 0px 0px 20px 0px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: repeat-y;
+  background-position: center center;
+  flex: 1; }
+
+section {
+  display: block;
+  width: 90%;
+  margin: 20px auto;
+  padding: 0px 0px 16px 0px;
+  overflow: hidden; }
+
+section > div {
+  width: calc(100% - 10px);
+  margin: 0px auto;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4, minmax(200px, 1fr)); }
+
+section#bottle > div > div {
+  text-align: center;
+  margin: 10px 8px 16px 8px;
+  background-color: rgba(0, 102, 153, 0.2);
+  border: 1px solid;
+  border-radius: 16px;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: 35%; }
+
+section#bottle > div > p {
+  margin: 0px;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-self: center;
+  font-size: 4rem;
+  font-weight: bold; }
+
+footer {
+  width: 100%;
+  text-align: center;
+  padding: 5px 0px 5px 0px;
+  margin: 0px 0px 0px 0px;
+  background-color: #666666; }
+
+footer p {
+  font-size: 2rem;
+  color: #ffffff;
+  margin: 0px 0px 0px 0px;
+  line-height: 45px;
+  letter-spacing: 2px; }
 
 /*# sourceMappingURL=template.css.map */
