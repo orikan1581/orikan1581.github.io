@@ -104,26 +104,26 @@ section > div {
   margin: 0px auto;
   display: grid;
   gap: 10px;
-  grid-template-columns: repeat(4, minmax(200px, 1fr)); }
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); }
 
 section#bottle > div > div {
   text-align: center;
   margin: 10px 8px 16px 8px;
   background-color: rgba(0, 102, 153, 0.2);
-  border: 1px solid;
+  border: 0px solid;
   border-radius: 16px;
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: 35%; }
 
-section#bottle > div > p {
-  margin: 0px;
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: auto;
-  align-self: center;
-  font-size: 4rem;
-  font-weight: bold; }
+section#bottle > div > div > img {
+  width: 200px;
+  margin: 12px 0px 0px 0px; }
+
+section#bottle > div > div > p {
+  width: 100%;
+  text-align: center;
+  margin: 0px 0px 10px 0px; }
 
 footer {
   width: 100%;
